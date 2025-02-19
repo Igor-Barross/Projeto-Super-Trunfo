@@ -3,10 +3,10 @@
 #include <locale.h>
 
 int main(){
-    
     // Tive que colocar esse comando para melhorar a exibição dos caracteres;
     setlocale(LC_ALL, "pt_BR.UTF-8");
     
+
     // Declaração das variáveis das cartas
     char estado1, estado2;
     char codigo_estado_carta1[4] = "";
@@ -22,24 +22,31 @@ int main(){
     // Coleta de dados da carta 1
     printf("Carta 1 - Digite os dados\n");
 
+    // Coleta do Nome do estado - Carta 1
     printf("Digite uma letra de 'A' a 'H'. (representando um dos oito estados):\n");
     scanf(" %c", &estado1);
     
+    // Coleta do Codigo do estado - Carta 1
     printf("Digite a letra do estado seguida de 01 a 04. (ex: A01, B04): \n");
     scanf(" %s", codigo_estado_carta1);
-    
+
+    // Coleta do Nome da cidade - Carta 1
     printf("Nome da cidade: \n");
     scanf("%s", nome_cidade1);
     
+    // Coleta da População - Carta 1
     printf("População: \n");
     scanf("%d", &populacao1);
     
+    // Coleta da Área em km² - Carta 1
     printf("Área em km²: \n");
     scanf("%f", &area_km_quadrado1);
     
+    // Coleta do PIB - Carta 1
     printf("PIB: \n");
     scanf("%f", &pib1);
     
+    // Coleta do Numero de pontos turisticos - Carta 1
     printf("Numero de pontos turisticos: \n");
     scanf("%d", &numero_pontos_turisticos1);
     
@@ -50,24 +57,31 @@ int main(){
     // Coleta de dados da carta 2
     printf("Carta 2 - Digite os dados\n");
     
+    // Coleta do Nome do estado - Carta 2
     printf("Digite uma letra de 'A' a 'H'. (representando um dos oito estados): \n");
     scanf(" %c", &estado2);
     
+    // Coleta do Codigo do estado - Carta 2
     printf("Digite a letra do estado seguida de 01 a 04. (ex: A01, B04): \n");
     scanf(" %s", codigo_estado_carta2);
     
+    // Coleta do Nome da cidade - Carta 2
     printf("Nome da cidade: \n");
     scanf("%s", nome_cidade2);
     
+    // Coleta da População - Carta 2
     printf("População: \n");
     scanf("%d", &populacao2);
     
+    // Coleta da Área em km² - Carta 2
     printf("Área em km²: \n");
     scanf("%f", &area_km_quadrado2);
     
+    // Coleta do PIB - Carta 2
     printf("PIB: \n");
     scanf("%f", &pib2);
-    
+
+    // Coleta do Numero de pontos turisticos - Carta 2
     printf("Numero de pontos turisticos: \n");
     scanf("%d", &numero_pontos_turisticos2);
     
