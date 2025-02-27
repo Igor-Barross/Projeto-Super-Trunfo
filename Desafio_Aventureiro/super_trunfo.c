@@ -1,11 +1,7 @@
 // Inicio do progama super trunfo:
 #include <stdio.h>
-#include <locale.h>
 
 int main(){
-    // Tive que colocar esse comando para corrigir um bug exibição dos caracteres no meu terminal
-    setlocale(LC_ALL, "pt_BR.UTF-8");
-    
 
     // Declaração das variáveis das cartas
     char estado1, estado2;
